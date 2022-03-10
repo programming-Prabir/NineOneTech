@@ -1,0 +1,511 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h2 {
+  font-family: "Lora", serif;
+}
+
+input[type="button"] {
+  background: -webkit-gradient(linear, left top, right top, from(#34b15e), color-stop(50%, #73e09a), to(#34b15e));
+  background: linear-gradient(to right, #34b15e 0%, #73e09a 50%, #34b15e 100%);
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+input[type="button"]:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#73e09a), color-stop(50%, #34b153), to(#34b15e));
+  background: linear-gradient(to right, #73e09a 0%, #34b153 50%, #34b15e 100%);
+}
+
+.main {
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: #365ae1;
+}
+
+.navbar .navbarLogo img {
+  width: 45px;
+  height: 30px;
+  -webkit-transform: scale(2.5);
+          transform: scale(2.5);
+}
+
+.navbar a {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.navbar a:hover {
+  color: #fff;
+  -webkit-text-decoration: underline 3px solid #34b15e;
+          text-decoration: underline 3px solid #34b15e;
+}
+
+.navbar i {
+  color: #fff;
+  font-size: 1.9rem;
+}
+
+.navbar .navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbar .navbar-collapse {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+.scroll {
+  background: -webkit-gradient(linear, left top, right top, from(#34b15e), color-stop(50%, #73e09a), to(#34b15e));
+  background: linear-gradient(to right, #34b15e 0%, #73e09a 50%, #34b15e 100%);
+  top: 77px;
+  left: 0;
+  right: initial;
+}
+
+.banner {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#365ae1), color-stop(4.66%, #244ae2), color-stop(76.69%, #1029a6), to(#1029a6));
+  background-image: linear-gradient(#365ae1 0%, #244ae2 4.66%, #1029a6 76.69%, #1029a6 100%);
+}
+
+.banner .carousel-control-prev {
+  left: -43px;
+}
+
+.banner .carousel-control-next {
+  right: -34px;
+}
+
+.banner .bannerContent {
+  min-height: 90vh;
+}
+
+.banner .bannerContent img {
+  width: 400px;
+  height: 300px;
+}
+
+.banner .bannerContent .carousel-caption {
+  bottom: 0;
+  top: 10rem;
+  left: 9%;
+  right: 10%;
+}
+
+.banner .bannerContent .bannerBox .mainText h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.banner .bannerContent .bannerBox .mainText h1 span {
+  color: #01e74e;
+}
+
+.mainHeader {
+  background: -webkit-gradient(linear, left top, right top, from(#34b15e), color-stop(50%, #73e09a), to(#34b15e));
+  background: linear-gradient(to right, #34b15e 0%, #73e09a 50%, #34b15e 100%);
+  width: 60%;
+  z-index: 1;
+  position: absolute;
+  -webkit-transform: translateY(-63px);
+          transform: translateY(-63px);
+}
+
+.mainHeader img {
+  width: 10%;
+}
+
+.about {
+  background-color: #365ae1;
+}
+
+.about .aboutHeading {
+  padding-top: 10%;
+}
+
+.about .aboutHead {
+  color: #01e74e;
+  font-family: "Lora", serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.about .aboutHead span {
+  color: #fff;
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+.services {
+  background: -webkit-gradient(linear, left top, left bottom, from(#244ae2), to(#365ae1e3));
+  background: linear-gradient(to bottom, #244ae2, #365ae1e3);
+}
+
+.services .servicesCard {
+  max-width: 22rem;
+  cursor: pointer;
+}
+
+.services .servicesCard img {
+  background-color: #34b15e;
+  width: 23%;
+}
+
+.services .servicesCard h3 {
+  color: #3d4270;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.services .servicesCard p {
+  font-family: "Lora", serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.blog {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#365ae1), color-stop(4.66%, #244ae2), color-stop(76.69%, #1029a6), to(#1029a6));
+  background-image: linear-gradient(#365ae1 0%, #244ae2 4.66%, #1029a6 76.69%, #1029a6 100%);
+}
+
+.blog .blogCard {
+  width: 19rem;
+}
+
+.blog .blogCard img {
+  height: 200px;
+}
+
+.blog .blogCard h3 {
+  font-family: "Lora", serif;
+  color: #3d4270;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.blog .blogCard p {
+  font-family: "Lora", serif;
+  color: #3d4270;
+  font-weight: 600;
+}
+
+.more {
+  background-color: #365ae1;
+}
+
+.more .moreUl .List {
+  position: relative;
+}
+
+.more .moreUl .List span {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #01e74e;
+}
+
+.more .moreUl .List img {
+  width: 35px;
+  cursor: pointer;
+  position: absolute;
+  right: 11px;
+}
+
+.more .moreUl .List p {
+  font-size: 1.2rem;
+  font-family: "Lora", serif;
+  letter-spacing: 0.7px;
+  color: #3d4270;
+  display: none;
+}
+
+.iconToggle {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+.roadMap {
+  background-image: url(../image/roadMap.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.roadMap .roadMapHeading {
+  margin-bottom: 8rem;
+}
+
+.roadMap .roadmapItem {
+  max-width: 20%;
+  position: relative;
+}
+
+.roadMap .roadmapItem:hover .circle .dot {
+  background-color: #01e74e;
+}
+
+.roadMap .roadmapItem .circle {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  top: -51px;
+  left: 49%;
+  padding: 3px;
+  border: 3px solid #fff;
+}
+
+.roadMap .roadmapItem .circle .dot {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.roadMap .roadmapItem p {
+  font-size: 1.1rem;
+}
+
+.roadMap .roadmapItem::before {
+  position: absolute;
+  content: "";
+  width: 49%;
+  left: 0;
+  height: 2px;
+  top: -40px;
+  background-color: #fff;
+}
+
+.roadMap .roadmapItem::after {
+  position: absolute;
+  content: "";
+  width: 40%;
+  right: 0;
+  height: 2px;
+  top: -40px;
+  background-color: #fff;
+}
+
+.project {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#365ae1), color-stop(4.66%, #244ae2), color-stop(76.69%, #1029a6), to(#1029a6));
+  background-image: linear-gradient(#365ae1 0%, #244ae2 4.66%, #1029a6 76.69%, #1029a6 100%);
+}
+
+.project .projectCard {
+  max-width: 45%;
+}
+
+.contactUs {
+  background-color: #e9eef3;
+}
+
+.contactUs h2,
+.contactUs p {
+  color: #3d4270;
+}
+
+.contactUs .button {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#365ae1), color-stop(4.66%, #244ae2), color-stop(76.69%, #1029a6), to(#1029a6));
+  background-image: linear-gradient(#365ae1 0%, #244ae2 4.66%, #1029a6 76.69%, #1029a6 100%);
+}
+
+.contactUs input[type="text"],
+.contactUs input[type="email"],
+.contactUs textarea {
+  outline: none;
+}
+
+.contactUs iframe {
+  height: 67vh;
+}
+
+.footer {
+  background-image: url(../image/roadMap.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer .footerContent {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.footer .footerContent h5,
+.footer .footerContent a {
+  font-family: "Lora", serif;
+}
+
+.footer .footerContent a {
+  display: inline-block;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+.footer .footerContent a:hover {
+  color: #01e74e !important;
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+}
+
+.footer .footerContent .socialIcon a {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.158);
+  border-radius: 50%;
+  display: -ms-grid;
+  display: grid;
+  text-decoration: none;
+  place-items: center;
+}
+
+.footer .footerContent .socialIcon a:hover {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+  background-color: #fff;
+}
+
+.footer .footerDown {
+  border-top: 1px solid #73e09a;
+}
+
+.footer .up {
+  width: 50px;
+  height: 48px;
+  background-color: #01e74e;
+  display: block;
+  text-align: center;
+  padding-top: 0.5rem;
+  border-radius: 50%;
+  float: right;
+  position: fixed;
+  bottom: 5.5rem;
+  right: 1rem;
+  display: none;
+}
+
+.footer .up a {
+  text-decoration: none;
+}
+
+.footer .up i {
+  color: #fff;
+  font-size: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .banner .bannerContent .bannerBox .mainText p {
+    display: none;
+  }
+  .banner .bannerContent .bannerBox .mainText h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .mainHeader {
+    width: 85%;
+  }
+}
+
+@media (max-width: 991px) {
+  .scroll {
+    top: 71px;
+  }
+  .navUL {
+    margin-top: 1rem;
+  }
+  .mainHeader {
+    width: 95%;
+  }
+  .contactUsInput {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner .bannerContent .bannerBox .mainText h1 {
+    font-size: 2.5rem;
+  }
+  .mainHeader .phone {
+    display: none !important;
+  }
+  .about .aboutHeading {
+    padding-top: 17%;
+  }
+  .servicesContent,
+  .blogContent {
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+  }
+}
+
+@media (max-width: 548px) {
+  .controlButton {
+    display: none;
+  }
+  .banner .bannerContent .bannerBox {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .banner .bannerContent .bannerBox img {
+    width: 100%;
+  }
+  .banner .bannerContent .bannerBox .mainText {
+    display: none;
+  }
+  .mainHeader {
+    display: none;
+  }
+  .about .aboutHeading {
+    padding-top: 10%;
+  }
+  .services .servicesCard h3 {
+    text-align: center;
+  }
+  .services .servicesCard img {
+    margin: auto;
+  }
+  .roadMap .roadMapContent {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .roadMap .roadMapContent .roadmapItem {
+    max-width: 15rem;
+    margin-bottom: 5rem;
+  }
+  .roadMap .roadMapContent .roadmapItem:last-child {
+    margin-bottom: 0;
+  }
+  .heading.roadMapHeading p {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

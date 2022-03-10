@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home page of || nineOneTech ||</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This is the software Company Your can deal with us we are Providing many kind of software and website">
+    <meta name=" keywords" content="Software, WebSite, Company">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- fontawesome cdn link  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- google fonnts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- fav icon  -->
+    <link rel="shortcut icon" href="./image/icons/favIcon/android-icon-96x96.png" type="image/x-icon">
+
+    <!-- link css  -->
+    <link rel="stylesheet" href="./sass/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <header id="header">
+            <!-- navbar  -->
+            <nav class="navbar navbar-expand-lg py-3 px-5 fixed-top">
+                <div class="container-fluid p-0 m-0">
+                    <a class="navbar-brand navbarLogo text-decoration-none m-0 p-0" href="index.html">
+                        <figure class="m-0">
+                            <img class="" src="./image/icons/logo.png" alt="This is an logo">
+                        </figure>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <div class="navUL collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#blog">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#project">Best&nbsp;Project</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contactUs">Contact&nbsp;Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- scroll  -->
+            <div class="scroll fixed-top py-1"></div>
+
+            <!-- this is modal  -->
+            <div class="modal fade" id="signModal" tabindex="-1" aria-labelledby="signModal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title text-center">LogIn</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label">Name</label>
+                                    <input type="text" class="form-control" placeholder="Enter Your Name">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Email</label>
+                                    <input type="email" class="form-control" placeholder="Enter Your Email">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Password</label>
+                                    <input type="password" class="form-control" placeholder="Enter Your Password">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-danger">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- backgroundImg  -->
+            <div id="carouselExampleCaptions" class="w-100 carousel slide carousel-fade banner" data-bs-ride="carousel">
+                <div class="w-100 bannerContent carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="bannerBox carousel-caption d-flex justify-content-between">
+                            <div class="mainText">
+                                <h1 class="text-start">Make Your <span>WebSite</span> And <span>Software</span> World
+                                    Class</h1>
+                                <p class="fs-5 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                                    ab, earum
+                                    vel corporis
+                                    temporibus delectus.
+                                </p>
+                                <div class="button text-start">
+                                    <input type="button"
+                                        class="px-4 py-3 text-center rounded border-0 fs-4 fw-bold text-white"
+                                        value="Register Now">
+                                </div>
+                            </div>
+                            <figure>
+                                <img src="./image/backgroundImg.png" alt="This is background Img">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="bannerBox carousel-caption d-flex justify-content-between">
+                            <div class="mainText">
+                                <h1 class="text-start">We Work Very <span>Honesty</span> and <span>Responsiblety</span>
+                                </h1>
+                                <p class="fs-5 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                                    ab, earum
+                                    vel corporis
+                                    temporibus delectus.
+                                </p>
+                                <div class="button text-start">
+                                    <input type="button"
+                                        class="px-4 py-3 text-center rounded border-0 fs-4 fw-bold text-white"
+                                        value="Order Now">
+                                </div>
+                            </div>
+                            <figure>
+                                <img src="./image/backgroundImg2.png" alt="This is background Img">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="bannerBox carousel-caption d-flex justify-content-between">
+                            <div class="mainText">
+                                <h1 class="text-start">We Are Provide <span>Best</span> Quality <span>Product</span>
+                                </h1>
+                                <p class="fs-5 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                                    ab, earum
+                                    vel corporis
+                                    temporibus delectus.
+                                </p>
+                                <div class="button text-start">
+                                    <input type="button"
+                                        class="px-4 py-3 text-center rounded border-0 fs-4 fw-bold text-white"
+                                        value="Don't be Late">
+                                </div>
+                            </div>
+                            <figure>
+                                <img src="./image/backgroundImg3.png" alt="This is background Img">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <button class="controlButton carousel-control-prev" type="button"
+                    data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="controlButton carousel-control-next" type="button"
+                    data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- main header -->
+        <main>
+            <div class="mainContent d-flex justify-content-center">
+                <div class="mainHeader rounded">
+                    <div class="container-fluid m-0 p-0 d-flex justify-content-between py-5 px-2">
+                        <figure class="phone d-flex m-0">
+                            <img class="me-2" src="./image/icons/phone-receiver-silhouette.png" alt="This is icons">
+                            <figcaption class="text-white fw-bold fs-5">+91 XXX XXX XXX</figcaption>
+                        </figure>
+                        <figure class="email d-flex m-0">
+                            <img class="me-2" src="./image/icons/email.png" alt="This is icons">
+                            <figcaption class="text-white fw-bold fs-5"><a href=""
+                                    class="text-decoration-none text-white">nineonetech@gmail.com</a></figcaption>
+                        </figure>
+                        <figure class="web d-flex m-0 justify-content-end">
+                            <img class="me-2" src="./image/icons/web.png" alt="This is icons">
+                            <figcaption class="text-white fw-bold fs-5"><a href=""
+                                    class="text-decoration-none text-white">www.nineOneTech.in</a> </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+            <!-- about  -->
+            <section class="about pt-0 px-5 pb-4" id="about">
+                <div class="container-fluid p-0 m-0">
+                    <div class="heading aboutHeading mb-5">
+                        <h2 class="text-center text-white fs-2">ABOUT US</h2>
+                        <div class="border w-25 m-auto"></div>
+                    </div>
+                    <div class="row featurette m-0">
+                        <div class="col-md-7 mb-3">
+                            <h2 class="aboutHead featurette-heading">We Are Providing Many kind of <span>Software</span>
+                                And <span>Website</span></h2>
+                            <p class="lead pt-3 text-white">Some great placeholder content for the first featurette
+                                here. Imagine
+                                some
+                                exciting prose here Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex ut
+                                excepturi, eum voluptate assumenda vel.
+                            </p>
+                            <p class="lead pt-3 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Dolor autem
+                                nemo
+                                quia officia nulla dignissimos.
+                            </p>
+                            <div class="aboutbutton pt-3">
+                                <input type="button"
+                                    class="px-4 py-3 text-center rounded border-0 fs-4 fw-bold text-white"
+                                    value="Know More">
+                            </div>
+                        </div>
+                        <figure class="col-md-5">
+                            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                                width="500" src="./image/aboutImg.png" alt="This is img">
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+            <!-- services  -->
+            <section class="services py-5 px-5" id="services">
+                <div class="container-fluid p-0 m-0">
+                    <div class="heading mb-5">
+                        <h2 class="text-white text-center">SERVICES</h2>
+                        <div class="border m-auto w-25"></div>
+                    </div>
+                    <div class="servicesContent d-flex justify-content-between flex-wrap">
+                        <div class="servicesCard mb-5 p-3 bg-light rounded">
+                            <figure class="card border-0 rounded-0 bg-light mb-0">
+                                <img src="./image/icons/dollar-symbol.png" class="shadow rounded-3 mb-4 p-2"
+                                    alt="This is an image">
+                                <figcaption>
+                                    <h3>Secure Your Wallet</h3>
+                                </figcaption>
+                            </figure>
+                            <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quae
+                                deserunt alias?
+                                Maxime voluptatum deleniti quia repudiandae deserunt quibusdam ad.
+                            </p>
+                        </div>
+                        <div class="servicesCard mb-5 p-3 bg-light rounded">
+                            <figure class="card border-0 rounded-0 bg-light mb-0">
+                                <img src="./image/icons/notification.png" class="shadow rounded-3 mb-4 p-2"
+                                    alt="This is an image">
+                                <figcaption>
+                                    <h3>Fast Services</h3>
+                                </figcaption>
+                            </figure>
+                            <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quae
+                                deserunt alias?
+                                Maxime voluptatum deleniti quia.
+                            </p>
+                        </div>
+                        <div class="servicesCard mb-5 p-3 bg-light rounded">
+                            <figure class="card border-0 rounded-0 bg-light mb-0">
+                                <img src="./image/icons/loading.png" class="shadow rounded-3 mb-4 p-2"
+                                    alt="This is an image">
+                                <figcaption>
+                                    <h3>Maintain Services</h3>
+                                </figcaption>
+                            </figure>
+                            <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quae
+                                deserunt alias?
+                                Maxime voluptatum deleniti quia.
+                            </p>
+                        </div>
+                        <div class="servicesCard mb-5 p-3 bg-light rounded">
+                            <figure class="card border-0 rounded-0 bg-light mb-0">
+                                <img src="./image/icons/control.png" class="shadow rounded-3 mb-4 p-2"
+                                    alt="This is an image">
+                                <figcaption>
+                                    <h3>Complete Guide</h3>
+                                </figcaption>
+                            </figure>
+                            <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quae
+                                deserunt alias?
+                                Maxime voluptatum deleniti quia.
+                            </p>
+                        </div>
+                        <div class="servicesCard mb-5 p-3 bg-light rounded">
+                            <figure class="card border-0 rounded-0 bg-light mb-0">
+                                <img src="./image/icons/trend.png" class="shadow rounded-3 mb-4 p-2"
+                                    alt="This is an image">
+                                <figcaption>
+                                    <h3>Tranding Technology</h3>
+                                </figcaption>
+                            </figure>
+                            <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quae
+                                deserunt alias?
+                                Maxime voluptatum deleniti quia.
+                            </p>
+                        </div>
+                        <div class="servicesCard mb-5 p-3 bg-light rounded">
+                            <figure class="card border-0 rounded-0 bg-light mb-0">
+                                <img src="./image/icons/money.png" class="shadow rounded-3 mb-4 p-2"
+                                    alt="This is an image">
+                                <figcaption>
+                                    <h3>Save Your Money</h3>
+                                </figcaption>
+                            </figure>
+                            <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quae
+                                deserunt alias?
+                                Maxime voluptatum deleniti quia.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <input type="button" class="px-4 py-3 text-center rounded border-0 fs-4 fw-bold text-white"
+                            value="Know More">
+                    </div>
+                </div>
+            </section>
+
+            <!-- blog  -->
+            <section class="blog px-5 py-5" id="blog">
+                <div class="container-fluid m-0 p-0">
+                    <div class="heading mb-5">
+                        <h2 class="text-white text-center">BLOG</h2>
+                        <div class="w-25 m-auto text-white border"></div>
+                    </div>
+                    <div class="blogContent d-flex justify-content-between flex-wrap">
+                        <div class="blogCard mb-5">
+                            <figure class="card border-0 rounded-0 mb-0">
+                                <img src="./image/blog1.jpg" class="mb-4 w-100" alt="This is an image">
+                                <figcaption class="p-2">
+                                    <h3 class="">Lorem ipsum dolor sit amet consectetur adipisicing Saepe vero.</h3>
+                                    <p>Dec-28-2021</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="blogCard mb-5">
+                            <figure class="card border-0 rounded-0 mb-0">
+                                <img src="./image/blog2.jpg" class="mb-4 w-100" alt="This is an image">
+                                <figcaption class="p-2">
+                                    <h3 class="">Lorem ipsum dolor sit amet consectetur adipisicing Saepe vero.</h3>
+                                    <p>Mar-18-2021</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="blogCard mb-5">
+                            <figure class="card border-0 rounded-0 mb-0">
+                                <img src="./image/blo3.jpg" class="mb-4 w-100" alt="This is an image">
+                                <figcaption class="p-2">
+                                    <h3 class="">Lorem ipsum dolor sit amet consectetur adipisicing Saepe vero.</h3>
+                                    <p>Oct-04-2021</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="blogCard mb-5">
+                            <figure class="card border-0 rounded-0 mb-0">
+                                <img src="./image/blog4.jpg" class="mb-4 w-100" alt="This is an image">
+                                <figcaption class="p-2">
+                                    <h3 class="">Lorem ipsum dolor sit amet consectetur adipisicing Saepe vero.</h3>
+                                    <p>Jan-22-2021</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="blogCard mb-5">
+                            <figure class="card border-0 rounded-0 mb-0">
+                                <img src="./image/blog5.jpg" class="mb-4 w-100" alt="This is an image">
+                                <figcaption class="p-2">
+                                    <h3 class="">Lorem ipsum dolor sit amet consectetur adipisicing Saepe vero.</h3>
+                                    <p>Nov-18-2021</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="blogCard mb-5">
+                            <figure class="card border-0 rounded-0 mb-0">
+                                <img src="./image/blog6.jpg" class="mb-4 w-100" alt="This is an image">
+                                <figcaption class="p-2">
+                                    <h3 class="">Lorem ipsum dolor sit amet consectetur adipisicing Saepe vero.</h3>
+                                    <p>Jul-19-2021</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="blogCard mb-5">
+                            <figure class="card border-0 rounded-0 mb-0">
+                                <img src="./image/blog7.jpg" class="mb-4 w-100" alt="This is an image">
+                                <figcaption class="p-2">
+                                    <h3 class="">Lorem ipsum dolor sit amet consectetur adipisicing Saepe vero.</h3>
+                                    <p>Jul-19-2021</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        <input type="button" class="px-4 py-3 text-center rounded border-0 fs-4 fw-bold text-white"
+                            value="About More">
+                    </div>
+                </div>
+            </section>
+
+            <!-- more about  -->
+            <section class="more px-5 py-5">
+                <div class="container-fluid m-0 p-0">
+                    <div class="heading mb-5">
+                        <h2 class="text-white text-center">More&nbsp;About&nbsp;US</h2>
+                        <div class="w-25 m-auto text-white border"></div>
+                    </div>
+                    <div class="moreContent">
+                        <ul class="moreUl list-unstyled m-0">
+                            <li class="List bg-white p-3 mb-3">
+                                <span>About Our Company</span>
+                                <img src="./image/icons/down-arrow.png" class="More_Icon" alt="This is an icon">
+                                <p class="mt-3 m-0">Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing
+                                    elit. Ipsa
+                                    inventore
+                                    sapiente,
+                                    obcaecati quae recusandae aspernatur magni fugit itaque hic velit esse minus
+                                    eligendi! Illo quod numquam est nesciunt nam fuga voluptates illum reprehenderit
+                                    error ullam quisquam perferendis ratione dicta, porro, optio doloremque expedita
+                                    modi vel voluptatem minus. Omnis, nemo deleniti!
+                                </p>
+                            </li>
+                            <li class="List bg-white p-3 mb-3">
+                                <span>Our Feature</span>
+                                <img src="./image/icons/down-arrow.png" class="More_Icon" alt="This is an icon">
+                                <p class="mt-3 m-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
+                                    inventore
+                                    sapiente,
+                                    obcaecati quae recusandae aspernatur magni fugit itaque hic velit esse minus
+                                    eligendi! Illo quod numquam est nesciunt nam fuga voluptates illum reprehenderit
+                                    error ullam quisquam perferendis ratione dicta, porro, optio doloremque expedita
+                                    modi vel voluptatem minus. Omnis, nemo deleniti!
+                                </p>
+                            </li>
+                            <li class="List bg-white p-3 mb-3">
+                                <span>About Our Servicess</span>
+                                <img src="./image/icons/down-arrow.png" class="More_Icon" alt="This is an icon">
+                                <p class="mt-3 m-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
+                                    inventore
+                                    sapiente,
+                                    obcaecati quae recusandae aspernatur magni fugit itaque hic velit esse minus
+                                    eligendi! Illo quod numquam est nesciunt nam fuga voluptates illum reprehenderit
+                                    error ullam quisquam perferendis ratione dicta, porro, optio doloremque expedita
+                                    modi vel voluptatem minus. Omnis, nemo deleniti!
+                                </p>
+                            </li>
+                            <li class="List bg-white p-3 mb-3">
+                                <span>Our Vision</span>
+                                <img src="./image/icons/down-arrow.png" class="More_Icon" alt="This is an icon">
+                                <p class="mt-3 m-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
+                                    inventore
+                                    sapiente,
+                                    obcaecati quae recusandae aspernatur magni fugit itaque hic velit esse minus
+                                    eligendi! Illo quod numquam est nesciunt nam fuga voluptates illum reprehenderit
+                                    error ullam quisquam perferendis ratione dicta, porro, optio doloremque expedita
+                                    modi vel voluptatem minus. Omnis, nemo deleniti!
+                                </p>
+                            </li>
+                            <li class="List bg-white p-3">
+                                <span>Destination</span>
+                                <img src="./image/icons/down-arrow.png" class="More_Icon" alt="This is an icon">
+                                <p class="mt-3 m-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
+                                    inventore
+                                    sapiente,
+                                    obcaecati quae recusandae aspernatur magni fugit itaque hic velit esse minus
+                                    eligendi! Illo quod numquam est nesciunt nam fuga voluptates illum reprehenderit
+                                    error ullam quisquam perferendis ratione dicta, porro, optio doloremque expedita
+                                    modi vel voluptatem minus. Omnis, nemo deleniti!
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- roadMap  -->
+            <section class="roadMap px-5 py-5 w-100">
+                <div class="container p-0">
+                    <div class="heading roadMapHeading">
+                        <h2 class="text-white text-center fs-1 mb-3">Road&nbsp;Map</h2>
+                        <p class="m-auto text-white fs-5 text-center w-50">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, rem. dianonumy eirmod tempor
+                            invidunt ut labore.
+                        </p>
+                    </div>
+                    <div class="roadMapContent d-flex justify-content-between flex-wrap">
+                        <div class="roadmapItem">
+                            <span class="circle">
+                                <span class="dot"></span>
+                            </span>
+                            <span class="text-white text-center d-block fs-4">January 2020</span>
+                            <p class="text-white text-center">Lorem ipsum dolor sit, amet adipisicing elit.
+                            </p>
+                        </div>
+                        <div class="roadmapItem">
+                            <span class="circle">
+                                <span class="dot"></span>
+                            </span>
+                            <span class="text-white text-center d-block fs-4">Mar 2020</span>
+                            <p class="text-white text-center">Lorem ipsum sit, amet consectetur elit.
+                            </p>
+                        </div>
+                        <div class="roadmapItem">
+                            <span class="circle">
+                                <span class="dot"></span>
+                            </span>
+                            <span class="text-white text-center d-block fs-4">Jul 2021</span>
+                            <p class="text-white text-center">Lorem sit, consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <div class="roadmapItem">
+                            <span class="circle">
+                                <span class="dot"></span>
+                            </span>
+                            <span class="text-white text-center d-block fs-4">Nov 2021</span>
+                            <p class="text-white text-center">Lorem ipsum dolor sit, amet adipisicing elit.
+                            </p>
+                        </div>
+                        <div class="roadmapItem">
+                            <span class="circle">
+                                <span class="dot"></span>
+                            </span>
+                            <span class="text-white text-center d-block fs-4">January 2022</span>
+                            <p class="text-white text-center">Lorem ipsum dolor sit, amet consectetur elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- project  -->
+            <section class="py-5 project px-5" id="project">
+                <div class="container-fluid m-0 p-0">
+                    <div class="heading mb-5">
+                        <h2 class="text-center text-white">OUR BEST PROJECT</h2>
+                        <div class="text-white border w-25 m-auto"></div>
+                    </div>
+                    <div class="projectContent d-flex justify-content-between flex-wrap mb-5">
+                        <div class="projectCard mb-5">
+                            <a class="text-decoration-none"
+                                href="https://themes.getbootstrap.com/product/around-multipurpose-template-ui-kit/">
+                                <img data-src="https://themes.getbootstrap.com/wp-content/uploads/2020/06/screenshot-3-540x405.jpg"
+                                    data-srcset="https://themes.getbootstrap.com/wp-content/uploads/2020/06/screenshot-3-800x600.jpg 800w, https://themes.getbootstrap.com/wp-content/uploads/2020/06/screenshot-3.jpg 1200w, https://themes.getbootstrap.com/wp-content/uploads/2020/06/screenshot-3-768x576.jpg 768w, https://themes.getbootstrap.com/wp-content/uploads/2020/06/screenshot-3-600x450.jpg 600w, https://themes.getbootstrap.com/wp-content/uploads/2020/06/screenshot-3-200x150.jpg 200w, https://themes.getbootstrap.com/wp-content/uploads/2020/06/screenshot-3-400x300.jpg 400w, https://themes.getbootstrap.com/wp-content/uploads/2020/06/screenshot-3-540x405.jpg 540w"
+                                    data-sizes="auto" class="theme-card__img lazyautosizes lazyloaded w-100"
+                                    srcset="https://themes.getbootstrap.com/wp-content/uploads/2020/06/screenshot-3-800x600.jpg 800w, https://themes.getbootstrap.com/wp-content/uploads/2020/06/screenshot-3.jpg 1200w, https://themes.getbootstrap.com/wp-content/uploads/2020/06/screenshot-3-768x576.jpg 768w, https://themes.getbootstrap.com/wp-content/uploads/2020/06/screenshot-3-600x450.jpg 600w, https://themes.getbootstrap.com/wp-content/uploads/2020/06/screenshot-3-200x150.jpg 200w, https://themes.getbootstrap.com/wp-content/uploads/2020/06/screenshot-3-400x300.jpg 400w, https://themes.getbootstrap.com/wp-content/uploads/2020/06/screenshot-3-540x405.jpg 540w"
+                                    src="https://themes.getbootstrap.com/wp-content/uploads/2020/06/screenshot-3-540x405.jpg"
+                                    alt="This is an image">
+                            </a>
+                        </div>
+                        <div class="projectCard mb-5">
+                            <a class="text-decoration-none" href="https://themes.getbootstrap.com/product/landkit/">
+                                <img data-src="https://themes.getbootstrap.com/wp-content/uploads/2019/04/landkit-screenshot-v2.0.0-540x405.jpg"
+                                    data-srcset="https://themes.getbootstrap.com/wp-content/uploads/2019/04/landkit-screenshot-v2.0.0-800x600.jpg 800w, https://themes.getbootstrap.com/wp-content/uploads/2019/04/landkit-screenshot-v2.0.0.jpg 1200w, https://themes.getbootstrap.com/wp-content/uploads/2019/04/landkit-screenshot-v2.0.0-768x576.jpg 768w, https://themes.getbootstrap.com/wp-content/uploads/2019/04/landkit-screenshot-v2.0.0-600x450.jpg 600w, https://themes.getbootstrap.com/wp-content/uploads/2019/04/landkit-screenshot-v2.0.0-200x150.jpg 200w, https://themes.getbootstrap.com/wp-content/uploads/2019/04/landkit-screenshot-v2.0.0-400x300.jpg 400w, https://themes.getbootstrap.com/wp-content/uploads/2019/04/landkit-screenshot-v2.0.0-540x405.jpg 540w"
+                                    data-sizes="auto" class="theme-card__img lazyautosizes lazyloaded w-100"
+                                    srcset="https://themes.getbootstrap.com/wp-content/uploads/2019/04/landkit-screenshot-v2.0.0-800x600.jpg 800w, https://themes.getbootstrap.com/wp-content/uploads/2019/04/landkit-screenshot-v2.0.0.jpg 1200w, https://themes.getbootstrap.com/wp-content/uploads/2019/04/landkit-screenshot-v2.0.0-768x576.jpg 768w, https://themes.getbootstrap.com/wp-content/uploads/2019/04/landkit-screenshot-v2.0.0-600x450.jpg 600w, https://themes.getbootstrap.com/wp-content/uploads/2019/04/landkit-screenshot-v2.0.0-200x150.jpg 200w, https://themes.getbootstrap.com/wp-content/uploads/2019/04/landkit-screenshot-v2.0.0-400x300.jpg 400w, https://themes.getbootstrap.com/wp-content/uploads/2019/04/landkit-screenshot-v2.0.0-540x405.jpg 540w"
+                                    src="https://themes.getbootstrap.com/wp-content/uploads/2019/04/landkit-screenshot-v2.0.0-540x405.jpg"
+                                    alt="This is an image">
+                            </a>
+                        </div>
+                        <div class="projectCard mb-5">
+                            <a class="text-decoration-none"
+                                href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/">
+                                <img data-src="https://themes.getbootstrap.com/wp-content/uploads/2018/05/front-preview-screenshot1-540x405.jpg"
+                                    data-srcset="https://themes.getbootstrap.com/wp-content/uploads/2018/05/front-preview-screenshot1-800x600.jpg 800w, https://themes.getbootstrap.com/wp-content/uploads/2018/05/front-preview-screenshot1.jpg 1200w, https://themes.getbootstrap.com/wp-content/uploads/2018/05/front-preview-screenshot1-768x576.jpg 768w, https://themes.getbootstrap.com/wp-content/uploads/2018/05/front-preview-screenshot1-600x450.jpg 600w, https://themes.getbootstrap.com/wp-content/uploads/2018/05/front-preview-screenshot1-200x150.jpg 200w, https://themes.getbootstrap.com/wp-content/uploads/2018/05/front-preview-screenshot1-400x300.jpg 400w, https://themes.getbootstrap.com/wp-content/uploads/2018/05/front-preview-screenshot1-540x405.jpg 540w"
+                                    data-sizes="auto" class="theme-card__img lazyautosizes lazyloaded w-100"
+                                    srcset="https://themes.getbootstrap.com/wp-content/uploads/2018/05/front-preview-screenshot1-800x600.jpg 800w, https://themes.getbootstrap.com/wp-content/uploads/2018/05/front-preview-screenshot1.jpg 1200w, https://themes.getbootstrap.com/wp-content/uploads/2018/05/front-preview-screenshot1-768x576.jpg 768w, https://themes.getbootstrap.com/wp-content/uploads/2018/05/front-preview-screenshot1-600x450.jpg 600w, https://themes.getbootstrap.com/wp-content/uploads/2018/05/front-preview-screenshot1-200x150.jpg 200w, https://themes.getbootstrap.com/wp-content/uploads/2018/05/front-preview-screenshot1-400x300.jpg 400w, https://themes.getbootstrap.com/wp-content/uploads/2018/05/front-preview-screenshot1-540x405.jpg 540w"
+                                    src="https://themes.getbootstrap.com/wp-content/uploads/2018/05/front-preview-screenshot1-540x405.jpg"
+                                    alt="This is an image">
+                            </a>
+                        </div>
+                        <div class="projectCard mb-5">
+                            <a class="text-decoration-none"
+                                href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/">
+                                <img data-src="https://themes.getbootstrap.com/wp-content/uploads/2019/10/screenshot-3-540x405.jpg"
+                                    data-srcset="https://themes.getbootstrap.com/wp-content/uploads/2019/10/screenshot-3-800x600.jpg 800w, https://themes.getbootstrap.com/wp-content/uploads/2019/10/screenshot-3.jpg 1200w, https://themes.getbootstrap.com/wp-content/uploads/2019/10/screenshot-3-768x576.jpg 768w, https://themes.getbootstrap.com/wp-content/uploads/2019/10/screenshot-3-600x450.jpg 600w, https://themes.getbootstrap.com/wp-content/uploads/2019/10/screenshot-3-200x150.jpg 200w, https://themes.getbootstrap.com/wp-content/uploads/2019/10/screenshot-3-400x300.jpg 400w, https://themes.getbootstrap.com/wp-content/uploads/2019/10/screenshot-3-540x405.jpg 540w"
+                                    data-sizes="auto" class="theme-card__img lazyautosizes lazyloaded w-100"
+                                    srcset="https://themes.getbootstrap.com/wp-content/uploads/2019/10/screenshot-3-800x600.jpg 800w, https://themes.getbootstrap.com/wp-content/uploads/2019/10/screenshot-3.jpg 1200w, https://themes.getbootstrap.com/wp-content/uploads/2019/10/screenshot-3-768x576.jpg 768w, https://themes.getbootstrap.com/wp-content/uploads/2019/10/screenshot-3-600x450.jpg 600w, https://themes.getbootstrap.com/wp-content/uploads/2019/10/screenshot-3-200x150.jpg 200w, https://themes.getbootstrap.com/wp-content/uploads/2019/10/screenshot-3-400x300.jpg 400w, https://themes.getbootstrap.com/wp-content/uploads/2019/10/screenshot-3-540x405.jpg 540w"
+                                    src="https://themes.getbootstrap.com/wp-content/uploads/2019/10/screenshot-3-540x405.jpg"
+                                    alt="This is an image">
+                            </a>
+                        </div>
+                        <div class="projectCard mb-5">
+                            <a class="text-decoration-none" href="https://themes.getbootstrap.com/product/themebau/">
+                                <img data-src="https://themes.getbootstrap.com/wp-content/uploads/2020/10/presentation_11111-min-540x405.jpg"
+                                    data-srcset="https://themes.getbootstrap.com/wp-content/uploads/2020/10/presentation_11111-min-800x600.jpg 800w, https://themes.getbootstrap.com/wp-content/uploads/2020/10/presentation_11111-min-1200x900.jpg 1200w, https://themes.getbootstrap.com/wp-content/uploads/2020/10/presentation_11111-min-768x576.jpg 768w, https://themes.getbootstrap.com/wp-content/uploads/2020/10/presentation_11111-min-600x450.jpg 600w, https://themes.getbootstrap.com/wp-content/uploads/2020/10/presentation_11111-min-200x150.jpg 200w, https://themes.getbootstrap.com/wp-content/uploads/2020/10/presentation_11111-min-400x300.jpg 400w, https://themes.getbootstrap.com/wp-content/uploads/2020/10/presentation_11111-min-540x405.jpg 540w, https://themes.getbootstrap.com/wp-content/uploads/2020/10/presentation_11111-min.jpg 1360w"
+                                    data-sizes="auto" class="theme-card__img lazyautosizes lazyloaded w-100"
+                                    srcset="https://themes.getbootstrap.com/wp-content/uploads/2020/10/presentation_11111-min-800x600.jpg 800w, https://themes.getbootstrap.com/wp-content/uploads/2020/10/presentation_11111-min-1200x900.jpg 1200w, https://themes.getbootstrap.com/wp-content/uploads/2020/10/presentation_11111-min-768x576.jpg 768w, https://themes.getbootstrap.com/wp-content/uploads/2020/10/presentation_11111-min-600x450.jpg 600w, https://themes.getbootstrap.com/wp-content/uploads/2020/10/presentation_11111-min-200x150.jpg 200w, https://themes.getbootstrap.com/wp-content/uploads/2020/10/presentation_11111-min-400x300.jpg 400w, https://themes.getbootstrap.com/wp-content/uploads/2020/10/presentation_11111-min-540x405.jpg 540w, https://themes.getbootstrap.com/wp-content/uploads/2020/10/presentation_11111-min.jpg 1360w"
+                                    src="https://themes.getbootstrap.com/wp-content/uploads/2020/10/presentation_11111-min-540x405.jpg"
+                                    alt="This is an image">
+                            </a>
+                        </div>
+                        <div class="projectCard mb-5">
+                            <a class="text-decoration-none"
+                                href="https://themes.getbootstrap.com/product/directory-directory-listing-bootstrap-4-theme/">
+                                <img data-src="https://themes.getbootstrap.com/wp-content/uploads/2019/02/directory-b5-1200x900-540x405.jpg"
+                                    data-srcset="https://themes.getbootstrap.com/wp-content/uploads/2019/02/directory-b5-1200x900-800x600.jpg 800w, https://themes.getbootstrap.com/wp-content/uploads/2019/02/directory-b5-1200x900.jpg 1200w, https://themes.getbootstrap.com/wp-content/uploads/2019/02/directory-b5-1200x900-768x576.jpg 768w, https://themes.getbootstrap.com/wp-content/uploads/2019/02/directory-b5-1200x900-600x450.jpg 600w, https://themes.getbootstrap.com/wp-content/uploads/2019/02/directory-b5-1200x900-200x150.jpg 200w, https://themes.getbootstrap.com/wp-content/uploads/2019/02/directory-b5-1200x900-400x300.jpg 400w, https://themes.getbootstrap.com/wp-content/uploads/2019/02/directory-b5-1200x900-540x405.jpg 540w"
+                                    data-sizes="auto"
+                                    class="theme-card__img lazyautosizes ls-is-cached lazyloaded w-100"
+                                    srcset="https://themes.getbootstrap.com/wp-content/uploads/2019/02/directory-b5-1200x900-800x600.jpg 800w, https://themes.getbootstrap.com/wp-content/uploads/2019/02/directory-b5-1200x900.jpg 1200w, https://themes.getbootstrap.com/wp-content/uploads/2019/02/directory-b5-1200x900-768x576.jpg 768w, https://themes.getbootstrap.com/wp-content/uploads/2019/02/directory-b5-1200x900-600x450.jpg 600w, https://themes.getbootstrap.com/wp-content/uploads/2019/02/directory-b5-1200x900-200x150.jpg 200w, https://themes.getbootstrap.com/wp-content/uploads/2019/02/directory-b5-1200x900-400x300.jpg 400w, https://themes.getbootstrap.com/wp-content/uploads/2019/02/directory-b5-1200x900-540x405.jpg 540w"
+                                    src="https://themes.getbootstrap.com/wp-content/uploads/2019/02/directory-b5-1200x900-540x405.jpg"
+                                    alt="This is an image">
+                            </a>
+                        </div>
+                        <div class="projectCard">
+                            <a class="text-decoration-none"
+                                href="https://themes.getbootstrap.com/product/incline-landing-page-set/">
+                                <img data-src="https://themes.getbootstrap.com/wp-content/uploads/2018/04/screenshot-2-540x405.png"
+                                    data-srcset="https://themes.getbootstrap.com/wp-content/uploads/2018/04/screenshot-2-800x600.png 800w, https://themes.getbootstrap.com/wp-content/uploads/2018/04/screenshot-2.png 1200w, https://themes.getbootstrap.com/wp-content/uploads/2018/04/screenshot-2-768x576.png 768w, https://themes.getbootstrap.com/wp-content/uploads/2018/04/screenshot-2-600x450.png 600w, https://themes.getbootstrap.com/wp-content/uploads/2018/04/screenshot-2-200x150.png 200w, https://themes.getbootstrap.com/wp-content/uploads/2018/04/screenshot-2-400x300.png 400w, https://themes.getbootstrap.com/wp-content/uploads/2018/04/screenshot-2-540x405.png 540w"
+                                    data-sizes="auto" class="theme-card__img lazyautosizes lazyloaded w-100"
+                                    srcset="https://themes.getbootstrap.com/wp-content/uploads/2018/04/screenshot-2-800x600.png 800w, https://themes.getbootstrap.com/wp-content/uploads/2018/04/screenshot-2.png 1200w, https://themes.getbootstrap.com/wp-content/uploads/2018/04/screenshot-2-768x576.png 768w, https://themes.getbootstrap.com/wp-content/uploads/2018/04/screenshot-2-600x450.png 600w, https://themes.getbootstrap.com/wp-content/uploads/2018/04/screenshot-2-200x150.png 200w, https://themes.getbootstrap.com/wp-content/uploads/2018/04/screenshot-2-400x300.png 400w, https://themes.getbootstrap.com/wp-content/uploads/2018/04/screenshot-2-540x405.png 540w"
+                                    src="https://themes.getbootstrap.com/wp-content/uploads/2018/04/screenshot-2-540x405.png"
+                                    alt="This is an image">
+                            </a>
+                        </div>
+                        <div class="projectCard">
+                            <a class="text-decoration-none"
+                                href="https://themes.getbootstrap.com/product/boomerang-bootstrap-4-business-corporate-theme/">
+                                <img data-src="https://themes.getbootstrap.com/wp-content/uploads/2018/02/Без-имени-3-540x405.jpg"
+                                    data-srcset="https://themes.getbootstrap.com/wp-content/uploads/2018/02/Без-имени-3-800x600.jpg 800w, https://themes.getbootstrap.com/wp-content/uploads/2018/02/Без-имени-3.jpg 1200w, https://themes.getbootstrap.com/wp-content/uploads/2018/02/Без-имени-3-768x576.jpg 768w, https://themes.getbootstrap.com/wp-content/uploads/2018/02/Без-имени-3-600x450.jpg 600w, https://themes.getbootstrap.com/wp-content/uploads/2018/02/Без-имени-3-200x150.jpg 200w, https://themes.getbootstrap.com/wp-content/uploads/2018/02/Без-имени-3-400x300.jpg 400w, https://themes.getbootstrap.com/wp-content/uploads/2018/02/Без-имени-3-540x405.jpg 540w"
+                                    data-sizes="auto" class="theme-card__img lazyautosizes lazyloaded w-100"
+                                    srcset="https://themes.getbootstrap.com/wp-content/uploads/2018/02/Без-имени-3-800x600.jpg 800w, https://themes.getbootstrap.com/wp-content/uploads/2018/02/Без-имени-3.jpg 1200w, https://themes.getbootstrap.com/wp-content/uploads/2018/02/Без-имени-3-768x576.jpg 768w, https://themes.getbootstrap.com/wp-content/uploads/2018/02/Без-имени-3-600x450.jpg 600w, https://themes.getbootstrap.com/wp-content/uploads/2018/02/Без-имени-3-200x150.jpg 200w, https://themes.getbootstrap.com/wp-content/uploads/2018/02/Без-имени-3-400x300.jpg 400w, https://themes.getbootstrap.com/wp-content/uploads/2018/02/Без-имени-3-540x405.jpg 540w"
+                                    src="https://themes.getbootstrap.com/wp-content/uploads/2018/02/Без-имени-3-540x405.jpg"
+                                    alt="This is an image">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <input type="button" class="px-4 py-3 text-center rounded border-0 fs-4 fw-bold text-white"
+                            value="View More">
+                    </div>
+                </div>
+            </section>
+
+            <!-- contact us -->
+            <section class="contactUs px-5 py-5" id="contactUs">
+                <div class="container-fluid m-0 p-0">
+                    <div class="row align-items-end">
+                        <div class="contactUsInput col-xl-6 col-lg-7">
+                            <div class="contact-wrapper mb-30">
+                                <div class="contactUsText mb-5">
+                                    <h2 class="mb-20 wow fadeInDown fs-1 fw-bold" data-wow-delay=".2s"
+                                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">
+                                        Contact With Us</h2>
+                                    <p class="mb-55 wow fadeInUp fs-5" data-wow-delay=".4s"
+                                        style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                        Lorem
+                                        ipsum dolor sit amet, consetetur sadipscing elitr, sed dianonumy eirmod tempor
+                                        invidunt.
+                                    </p>
+                                </div>
+                                <form action="assets/mail.php" method="POST" id="contact-form" class="contact-form">
+                                    <div class="row mb-4">
+                                        <div class="col-lg-6 col-md-6 mb-4">
+                                            <input class="w-100 px-3 py-3 border-0 bg-white" type="text" id="name"
+                                                name="name" placeholder="Name">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 mb-4">
+                                            <input class="w-100 px-3 py-3 border-0 bg-white" type="email" id="email"
+                                                name="email" placeholder="Email">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 mb-4">
+                                            <input class="px-3 w-100 py-3 border-0 bg-white" type="text" id="phone"
+                                                name="phone" placeholder="Phone">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <input class="px-3 w-100 py-3 border-0 bg-white" type="text" id="subject"
+                                                name="subject" placeholder="Subject">
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <textarea name="message" class="w-100 border-0 p-4 bg-white" id="message"
+                                                rows="5" placeholder="Message"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-start">
+                                        <button
+                                            class="button px-4 py-3 text-center rounded border-0 fs-4 fw-bold text-white">Send&nbsp;Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-5">
+                            <div class="contact-map mb-30">
+                                <div class="map-canvas">
+                                    <iframe class="map w-100" id="gmap_canvas"
+                                        src="https://maps.google.com/maps?q=Mission%20District%2C%20San%20Francisco%2C%20CA%2C%20USA&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- footer  -->
+        <footer class="footer">
+            <div class="footerContent container-fluid m-0 px-5">
+                <div class="row justify-content-around">
+                    <div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+                        <h5 class="text-white fs-3 mb-3">Company</h5>
+                        <p class="fs-5 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nulla
+                            accusamus delectus
+                            debitis dolore iure ipsam, eius natus quasi impedit?
+                        </p>
+                        <ul class="socialIcon nav justify-content-between list-unstyled d-flex mt-4">
+                            <li class=""><a class="text-white" href="#"><i class="fab fa-facebook fs-4"></i></a></li>
+                            <li class=""><a class="text-white" href="#"><i class="fab fa-twitter fs-4"></i></a></li>
+                            <li class=""><a class="text-white" href="#"><i class="fab fa-instagram fs-4"></i></a></li>
+                            <li class=""><a class="text-white" href="#"><i class="fab fa-linkedin fs-4"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+                        <h5 class="text-white fs-3 mb-3">About</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-white fs-5">Software</a></li>
+                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-white fs-5">Website</a></li>
+                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-white fs-5">Data Store</a>
+                            </li>
+                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-white fs-5">Service</a></li>
+                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-white fs-5">Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+                        <h5 class="text-white fs-3 mb-3">Terms</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-white fs-5">Provide</a></li>
+                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-white fs-5">Features</a></li>
+                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-white fs-5">Pricing</a></li>
+                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-white fs-5">Guranted</a></li>
+                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-white fs-5">Benifit</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+                        <h5 class="text-white fs-3 mb-3">Conditions</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-white fs-5">Deal</a></li>
+                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-white fs-5">Refund</a></li>
+                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-white fs-5">Privacy</a></li>
+                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-white fs-5">Policy</a></li>
+                            <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-white fs-5">Others</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footerDown  -->
+            <div class="footerDown py-4">
+                <p class="text-white text-center m-0">©Copy Right 2021 NineOneTech Company</p>
+            </div>
+            <a class="up" href="#header">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+        </footer>
+    </div>
+
+    <!-- these are script tag  -->
+    <script src="./javascript/script.js"></script>
+
+    <!-- bootstrap link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
